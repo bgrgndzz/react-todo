@@ -1,0 +1,38 @@
+.Form {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+}
+.Form input[type="text"] {
+  border: none;
+  background: none;
+  width: calc(100% - 25px);
+  height: 50px;
+  float: left;
+  outline: none;
+}
+.Form button {
+  float: right;
+  border: none;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: -20px;
+  border-radius: 50%;
+  background: #56E39F;
+  color: #42AF7B;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+.Form button span {
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+}

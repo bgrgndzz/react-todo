@@ -1,0 +1,27 @@
+li {
+  list-style-type: none;
+  padding: 20px 0;
+}
+.ListItem span {
+  width: 80%;
+  line-height: 20px;
+}
+.ListItem.done span {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: line-through;
+}
+.ListItem button {
+  float: right;
+  height: 20px;
+  width: 40px;
+  vertical-align: middle;
+  outline: none;
+  border: none;
+  background: #42AF7B;
+  color: white;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.ListItem.done button {
+  background: rgba(0, 0, 0, 0.5);
+}
