@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './index.css';
+import './Form.css';
 
 class Form extends Component {
   render() {

@@ -1,0 +1,26 @@
+.StatsBar {
+  height: 50px;
+  width: calc(100% + 100px);
+  display: flex;
+  position: absolute;
+  bottom: -50px;
+  left: -50px;
+  padding: 10px 0;
+}
+.StatsBar span {
+  flex: 1;
+  text-align: center;
+  line-height: 30px;
+}
+.StatsBar span:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.stat--total {
+  color: rgba(0, 0, 0, 0.75);
+}
+.stat--done {
+  color: #42AF7B;
+}
+.stat--todo {
+  color: #FF5A5F;
+}
